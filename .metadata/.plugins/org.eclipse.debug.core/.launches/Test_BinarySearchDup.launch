@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/john_hugh_00626563_cscd300_prog1/john_hugh_00626563_cscd300_prog1/Test_BinarySearchDup.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="john_hugh_00626563_cscd300_prog1.Test_BinarySearchDup"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="num.txt&#13;&#10;8"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="john_hugh_00626563_cscd300_prog1"/>
+</launchConfiguration>

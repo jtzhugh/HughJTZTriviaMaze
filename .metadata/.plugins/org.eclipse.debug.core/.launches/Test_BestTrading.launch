@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/john_hugh_00626563_cscd300_prog2/src/john_hugh_00626563_cscd300_prog2/Test_BestTrading.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="john_hugh_00626563_cscd300_prog2.Test_BestTrading"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="num.txt"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="john_hugh_00626563_cscd300_prog2"/>
+</launchConfiguration>

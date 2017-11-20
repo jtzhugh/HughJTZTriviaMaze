@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;LinkedList.java&apos; to &apos;Part 2 - addLast/(default package)&apos;&#x0D;&#x0A;- Original project: &apos;Part 1 - addFirst&apos;&#x0D;&#x0A;- Destination element: &apos;Part 2 - addLast/(default package)&apos;&#x0D;&#x0A;- Original element: &apos;LinkedList.java&apos;" description="Copy compilation unit" destination="=Part 2 - addLast/&lt;" element1="/&lt;{LinkedList.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1480975765071" units="1" version="1.0"/>
+</session>

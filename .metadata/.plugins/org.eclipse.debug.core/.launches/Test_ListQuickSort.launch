@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/john_hugh_00626563_cscd300_prog6/src/john_hugh_00626563_cscd300_prog6/Test_ListQuickSort.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="john_hugh_00626563_cscd300_prog6.Test_ListQuickSort"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="nums.txt"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="john_hugh_00626563_cscd300_prog6"/>
+</launchConfiguration>

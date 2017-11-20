@@ -1,0 +1,1 @@
+Honestly, took me forever to remember that I can just swap the random pivot to the end of the sequence. It's a little embarassing. Otherwise, this should run with nlogn time. It creates the array in n time, since it needs to read through the file twice though.

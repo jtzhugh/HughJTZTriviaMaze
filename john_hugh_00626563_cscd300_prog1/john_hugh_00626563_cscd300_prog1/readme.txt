@@ -1,0 +1,3 @@
+I could't get it to run through the command line, but I tested it in eclipse adding the arguments through configurations and it worked perfectly!
+
+For the modified algorithm, I'm basically just running two separate binary searches, one that's set up to find x with either a smaller number or the end of the array to the left, and another to the right. This results in a timecost of just log n, as the two searches would be 2 log n but the leading constant falls away like everything else in the analysis.

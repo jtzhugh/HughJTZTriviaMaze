@@ -1,0 +1,86 @@
+package john_hugh_00626563_cscd300_prog1;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+import john_hugh_00626563_cscd300_prog1.Pair;
+public class Test_BinarySearchDup {
+
+	public static void main(String[] args) throws FileNotFoundException {
+		// TODO Auto-generated method stub
+		if(args == null)
+			throw new NullPointerException("Args is null");
+		Scanner fin = new Scanner(new File(args[0]));
+		int x = Integer.parseInt(args[1]);
+		int counter = 0;
+		String finL = "";
+		while(fin.hasNext())
+		{
+			counter++;
+			finL = fin.nextLine();
+		}
+		int[] ara = new int[counter];
+		fin.close();
+		fin = new Scanner(new File(args[0]));
+		for(int i = 0; i < ara.length; i++)
+		{
+			ara[i] = fin.nextInt();
+			fin.nextLine();
+		}
+		Pair sol = BinarySearchDup(ara, x);
+		System.out.println(sol.toString());
+	}
+	public static Pair BinarySearchDup(int[] a, int x)
+	{
+		int left = -1;
+		int right = -1;
+		int low = 0;
+		int high = a.length - 1;
+
+		
+		while(low <= high)
+		{
+			int mid = ((low + high)/2);
+			if(a[mid] == x)
+			{
+				if(mid - 1 < 0 || a[mid - 1] < x)
+				{
+					left = mid;
+					low += high;
+				}
+				else
+					high = mid - 1;
+			}
+			else if(a[mid] < x)
+				low = mid + 1;
+			else
+				high = mid - 1;
+		}
+		//Saving a little bit of time if it doesn't find even one instance
+		if(left == -1)
+			return new Pair(left, -1);
+		//Check to see if a left bound was found, and if so searches for a right bound
+		low = 0;
+		high = a.length - 1;
+		while(low <= high)
+		{
+			int mid = ((low + high)/2);
+			if(a[mid] == x)
+			{
+				if(mid + 1 == a.length || a[mid + 1] > x)
+				{
+					right =  mid;
+					low += high;
+				}
+				else
+					low = mid + 1;
+			}
+			else if(a[mid] < x)
+				low = mid + 1;
+			else
+				high = mid - 1;
+		}
+		return new Pair(left, right);
+	}
+
+}

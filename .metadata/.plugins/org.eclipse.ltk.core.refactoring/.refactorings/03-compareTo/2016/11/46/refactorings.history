@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;Standard.java&apos; to &apos;01-constructor/(default package)&apos;&#x0D;&#x0A;- Original project: &apos;03-compareTo&apos;&#x0D;&#x0A;- Destination element: &apos;01-constructor/(default package)&apos;&#x0D;&#x0A;- Original element: &apos;Standard.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="=01-constructor/&lt;" element1="/&lt;{Standard.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1478800316719" units="1" version="1.0"/>
+</session>

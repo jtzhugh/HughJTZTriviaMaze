@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 4 elements to &apos;Part 1 - LinkedList2/(default package)&apos;&#x0D;&#x0A;- Original project: &apos;Part 4 - remove&apos;&#x0D;&#x0A;- Destination element: &apos;Part 1 - LinkedList2/(default package)&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     LinkedListB.java&#x0D;&#x0A;     LinkedListA.java&#x0D;&#x0A;     LinkedListC.java&#x0D;&#x0A;     LinkedList.java" description="Copy compilation units" destination="=Part 1 - LinkedList2/&lt;" element1="/&lt;{LinkedListB.java" element2="/&lt;{LinkedListA.java" element3="/&lt;{LinkedListC.java" element4="/&lt;{LinkedList.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1480977886123" units="4" version="1.0"/>
+</session>

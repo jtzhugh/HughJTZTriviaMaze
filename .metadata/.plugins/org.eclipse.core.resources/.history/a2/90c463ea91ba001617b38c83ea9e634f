@@ -1,0 +1,36 @@
+public class LinkedListC extends LinkedList
+{
+   // If the list is empty, print the message "The list is empty"
+	// Check the indexes to ensure
+	// -fromIndex is not less than 0
+	// -toIndex is not greater than size
+	// -fromIndex is less than toIndex
+	// throw an IndexOutOfBoundsException if one of the indexes are incorrect
+	// otherwise print the nodes fromIndex to toIndex in reverse order
+  	public void subListReverse(int fromIndex, int toIndex)
+	{
+  		if(fromIndex < 0 || toIndex > this.size || fromIndex > toIndex)
+  			throw new IndexOutOfBoundsException("invalid boundaries");
+		if(this.size == 0)
+			System.out.println("The list is empty");
+		else
+		{
+			int i = 0;
+			Node cur = this.head.next;
+			while( cur.next != null && i < fromIndex)
+			{
+				cur = cur.next;
+				i++;
+			}
+			subHelp(cur.next, i, toIndex);
+		}
+	}// end subListReverse
+  	private void subHelp(Node cur, int index, int toIndex)
+  	{
+  		if(index != toIndex)
+  		{
+  		subHelp(cur.next, index + 1, toIndex);
+  		System.out.println(cur.data.toString());
+  	}
+  	}
+}// end class
